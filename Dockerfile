@@ -1,4 +1,4 @@
-FROM maven:3.10.3-jdk-8 AS build-env
+FROM maven:3.5.4-jdk-8 AS build-env
 WORKDIR /app
 
 COPY pom.xml ./
